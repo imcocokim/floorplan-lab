@@ -1,3 +1,4 @@
+import Bath from "./Bath";
 import Bedroom from "./Bedroom";
 import Kitchen from "./Kitchen";
 import LivingRoom from "./LivingRoom";
@@ -10,6 +11,8 @@ const FloorPlan = () => {
     <Bedroom />
     <Bedroom />
     <Bedroom />
+    <Bath />
+    <Bath />
     </>
   );
 }
