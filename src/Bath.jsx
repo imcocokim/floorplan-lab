@@ -1,7 +1,9 @@
-const Bath = (size) => {
+import React from "react";
+
+const Bath = (props) => {
   return ( 
-    <div>
-      <h1>Bath</h1>
+    <div className="bath" id={`${props.size}-bath`} >
+      <h1>{props.size} Bath</h1>
     </div>
   );
 }

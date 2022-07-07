@@ -1,6 +1,8 @@
+import React from "react";
+
 const Sink = () => {
   return ( 
-    <div>
+    <div id="sink">
       <h1>Sink</h1>
     </div>
   );
