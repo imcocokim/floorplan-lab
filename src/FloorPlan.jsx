@@ -7,13 +7,13 @@ import LivingRoom from "./LivingRoom";
 const FloorPlan = (props) => {
   return ( 
     <div id="floorplan">
-    <Kitchen />
-    <LivingRoom />
     <Bedroom bedNum={1}/>
-    <Bedroom bedNum={2}/>
-    <Bedroom bedNum={3}/>
-    <Bath size="Half"/>
+    <Kitchen />
     <Bath size="Full"/>
+    <Bedroom bedNum={2}/>
+    <LivingRoom />
+    <Bath size="Half"/>
+    <Bedroom bedNum={3}/>
     </div>
   );
 }
